@@ -1,16 +1,17 @@
-<div class="container">
+<div class="container text-center" style="margin: 10px;">
     <div class="row">
         <div class="col-sm-4">
           {{#each burgers }}
 
              {{#unless devoured}}         
                      {{burger_name}} <button id="devoured">Devoured</button> <br>
+                     
                {{/unless}}
           {{/each}}
 
         </div>
         <div class="col-sm-4">  
-       <h1>title</h1>
+       <img src="/assets/css/burger-151421_1280.png" alt="burger image" class="burger-image">
 
        <input type="text" id="burger">  <button id="addBurger">Add</button>
 
